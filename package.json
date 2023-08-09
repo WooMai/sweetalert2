@@ -1,7 +1,7 @@
 {
-  "name": "sweetalert2",
+  "name": "@woomai/swal2",
   "version": "11.4.8",
-  "repository": "sweetalert2/sweetalert2",
+  "repository": "woomai/sweetalert2",
   "homepage": "https://sweetalert2.github.io/",
   "description": "A beautiful, responsive, customizable and accessible (WAI-ARIA) replacement for JavaScript's popup boxes, supported fork of sweetalert",
   "main": "dist/sweetalert2.all.js",
@@ -13,8 +13,6 @@
     "@babel/preset-env": "^7.16.7",
     "@rollup/plugin-json": "^4.0.2",
     "@sweetalert2/eslint-config": "^1.0.11",
-    "@sweetalert2/execute": "^1.0.0",
-    "@sweetalert2/prettier-config": "^1.0.0",
     "@sweetalert2/stylelint-config": "^2.0.6",
     "browser-sync": "^2.27.7",
     "cypress": "^9.5.1",

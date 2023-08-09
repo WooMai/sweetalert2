@@ -1,4 +1,4 @@
-declare module 'sweetalert2' {
+declare module '@woomai/swal2' {
   /**
    * A namespace inside the default function, containing utility function for controlling the currently-displayed popup.
    *
@@ -1163,16 +1163,16 @@ declare module 'sweetalert2' {
   export default Swal
 }
 
-declare module 'sweetalert2/*/sweetalert2.js' {
-  export * from 'sweetalert2'
+declare module '@woomai/swal2/*/sweetalert2.js' {
+  export * from '@woomai/swal2'
   // "export *" does not matches the default export, so do it explicitly.
-  export { default } from 'sweetalert2' // eslint-disable-line
+  export { default } from '@woomai/swal2' // eslint-disable-line
 }
 
-declare module 'sweetalert2/*/sweetalert2.all.js' {
-  export * from 'sweetalert2'
+declare module '@woomai/swal2/*/sweetalert2.all.js' {
+  export * from '@woomai/swal2'
   // "export *" does not matches the default export, so do it explicitly.
-  export { default } from 'sweetalert2' // eslint-disable-line
+  export { default } from '@woomai/swal2' // eslint-disable-line
 }
 
 /**
